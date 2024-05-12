@@ -3,7 +3,10 @@
 ## DEIVID NICOLAS URREA LARA - MICHAEL STEVEN MEDINA FERNANDEZ
 ### Universidad de La Sabana
 #### 2024 - I
-
+## link de la pagina desplegada
+https://taller-jwt-nicolas-urrea-michael-medina.vercel.app/
+## link del repositorio propio donde se desplego a vercel
+https://github.com/maikil09/jwt-for-the-win-michael-medina-nicolas-urrea.git
 ## Seguridad de Endpoints en Backend
 
 ### Objetivo
