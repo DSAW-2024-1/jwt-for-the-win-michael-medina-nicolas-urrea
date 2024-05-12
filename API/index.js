@@ -1,8 +1,10 @@
 const express = require("express");
+const cors = require("cors");
 const jwt = require("jsonwebtoken");
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 //Es la llave que me permite desencriptar mi token para acceder a los demas endpoints
 const TOKEN_KEY = "UjGyNtU5gtHR";
@@ -50,25 +52,14 @@ app.post("/login",(req,res)=>{
         const token = jwt.sign(
             {userId:datos.id, email: datos.email},
             TOKEN_KEY,
-            {expiresIn:"1"}
+            {expiresIn:"3h"}
         );
         res.status(200).json(token);
     }else{
         res.status(400).send("Credenciales incorrectas o incompletas.");
     }
 });
-app.get("/",(req,res)=>{
-    const HtmlResponse=`
-    <html>
-        <head>
 
-        <head>
-        <body>
-            <h1> :) </h1>
-        </body>
-    </html>
-    `;
-})
 //endpoint /profile
 app.get("/profile",verificarToken,(req,res)=>{
     const datos = {
@@ -79,8 +70,7 @@ app.get("/profile",verificarToken,(req,res)=>{
         Fecha_de_nacimiento: "2000-09-10"
     };
     res.status(200).json(datos);
-})
-
+});
 //endpoint /form
 app.post("/form",  (req, res) => {
     const {text} = req.body;
@@ -121,7 +111,6 @@ app.get('/contacts',verificarToken, (req, res) => {
 
 
 
-app.listen(3001, ()=>{
-    console.log("Servidor iniciado en el puerto 3001");
-});
-
+app.listen(4000, ()=>{
+    console.log("Servidor iniciado en el puerto 4000");
+})
