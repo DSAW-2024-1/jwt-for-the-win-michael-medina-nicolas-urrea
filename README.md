@@ -4,7 +4,7 @@
 ### Universidad de La Sabana
 #### 2024 - I
 ## link de la pagina desplegada
-https://taller-jwt-nicolas-urrea-michael-medina.vercel.app/
+https://jwt-tarea-michael-medina-nicolas-urrea.vercel.app
 ## link del repositorio propio donde se desplego a vercel
 https://github.com/DNico21/JWT-Tarea
 ## Seguridad de Endpoints en Backend
