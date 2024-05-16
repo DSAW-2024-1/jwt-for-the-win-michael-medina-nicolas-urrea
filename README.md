@@ -6,7 +6,7 @@
 ## link de la pagina desplegada
 https://taller-jwt-nicolas-urrea-michael-medina.vercel.app/
 ## link del repositorio propio donde se desplego a vercel
-https://github.com/maikil09/Taller-Jwt-Nicolas-Urrea---Michael-Medina.git
+https://github.com/maikil09/jwt-for-the-win-michael-medina-nicolas-urrea
 ## Seguridad de Endpoints en Backend
 
 ### Objetivo
