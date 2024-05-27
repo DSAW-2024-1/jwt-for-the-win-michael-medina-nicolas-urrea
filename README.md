@@ -1,8 +1,12 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ajKCO3Oe)
 # Desarrollo de Aplicaciones Web
-## NOMBRE_DE_LOS_ESTUDIANTES
+## DEIVID NICOLAS URREA LARA - MICHAEL STEVEN MEDINA FERNANDEZ
 ### Universidad de La Sabana
 #### 2024 - I
-
+## link de la pagina desplegada
+https://taller-jwt-nicolas-urrea-michael-medina.vercel.app/
+## link del repositorio propio donde se desplego a vercel
+https://github.com/maikil09/Taller-Jwt-Nicolas-Urrea---Michael-Medina.git
 ## Seguridad de Endpoints en Backend
 
 ### Objetivo
